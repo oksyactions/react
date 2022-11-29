@@ -1,18 +1,16 @@
 
 import {NavLink, Route, Routes} from "react-router-dom";
 import './App.css';
-const Profile = ()=>{
-  return  <h2> Страница профиля</h2>;
-};
+import Profile from  "./components/Profile";
 
 const Messages=()=>{
-return <h2>  Страница с сообщениями</h2>;
+return <h2> Страница с сообщениями</h2>;
 }
 const Settings=()=>{
-  return <h2>  Страница с настройками</h2>;
+  return <h2> Страница с настройками</h2>;
   }
   const Friends=()=>{
-    return <h2>  Мои друзья</h2>;
+    return <h2> Мои друзья</h2>;
     }
 
 
@@ -25,7 +23,7 @@ function App() {
 <div className="col-sm-3">
 
 <div className="nav flex-column nav-pills"   aria-orientation="vertical">
-<NavLink className="nav-link" to="/profile" > Профиль </NavLink>
+<NavLink className="nav-link" to="/profile" >Профиль </NavLink>
 <NavLink className="nav-link" to="/messages" >Сообщения</NavLink>
 <NavLink className="nav-link"   to="/settings" >Настройки</NavLink>
 <NavLink className="nav-link"  to="/friends" >Друзья</NavLink>

@@ -22,6 +22,7 @@ module.exports = {
 		"react/jsx-uses-react": 1,
 		"react/jsx-uses-vars": "error",
 		"react/prop-types": "off",
+        
 
     }
 }
